@@ -1,0 +1,25 @@
+{
+  "name": "use_dataloader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --max-old-space-size=4096 index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dataloader": "^2.2.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "smart-batcher": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "typescript": "^5.8.2"
+  }
+}
