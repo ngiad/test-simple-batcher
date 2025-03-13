@@ -59,7 +59,6 @@ if (cluster.isMaster) {
     console.log(`Worker ${worker.process.pid} died`);
   });
 } else {
-  // Mỗi worker sẽ chạy một instance của Express
   mongoose
     .connect("mongodb://localhost:27017/dataloader", {})
     .then(() => {
